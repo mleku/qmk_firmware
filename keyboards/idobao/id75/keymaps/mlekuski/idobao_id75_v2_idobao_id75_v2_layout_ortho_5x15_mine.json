@@ -3,7 +3,7 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "idobao/id75/v2",
-  "keymap": "idobao_id75_v2_idobao_id75_v2_idobao_id75_v2_layout_ortho_5x15_mine",
+  "keymap": "idobao_id75_v2_idobao_id75_v2_idobao_id75_v2_idobao_id75_v2_layout_ortho_5x15_mine",
   "layout": "LAYOUT_ortho_5x15",
   "layers": [
     [
@@ -14,7 +14,7 @@
       "KC_5",
       "KC_6",
       "KC_LBRC",
-      "KC_ESC",
+      "KC_APP",
       "KC_RBRC",
       "KC_7",
       "KC_8",
@@ -66,7 +66,7 @@
       "KC_W",
       "KC_V",
       "KC_Z",
-      "TG(3)",
+      "KC_RSFT",
       "KC_LCTL",
       "KC_LALT",
       "KC_LGUI",
@@ -74,14 +74,14 @@
       "KC_SPC",
       "KC_SPC",
       "KC_BSPC",
-      "KC_APP",
+      "KC_ESC",
       "KC_DEL",
       "KC_SPC",
       "KC_SPC",
       "KC_CAPS",
       "KC_PSCR",
-      "TG(2)",
-      "MO(5)"
+      "MO(5)",
+      "KC_RCTL"
     ],
     [
       "KC_F1",
@@ -309,10 +309,10 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "LGUI(KC_SPC)",
       "KC_TRNS",
-      "KC_LPRN",
-      "KC_RPRN"
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS"
     ],
     [
       "LSFT(KC_S)",
@@ -451,7 +451,7 @@
       "KC_NO",
       "RGB_HUI",
       "RGB_HUD",
-      "KC_NO",
+      "TG(3)",
       "KC_MPRV",
       "KC_MNXT",
       "KC_MUTE",
@@ -466,7 +466,7 @@
       "KC_NO",
       "RGB_MOD",
       "RGB_RMOD",
-      "KC_TRNS"
+      "TG(2)"
     ]
   ],
   "author": ""
